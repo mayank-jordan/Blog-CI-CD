@@ -1,7 +1,7 @@
 # ------------------- Stage 1: Build Stage ------------------------------
 FROM node:21 AS frontend-builder
 
-# Set the working directory to /app
+# Set the working directory to /app in the production
 WORKDIR /app
 
 # Copy the package.json and package-lock.json for dependency installation
