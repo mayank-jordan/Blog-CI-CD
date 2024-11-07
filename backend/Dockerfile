@@ -1,7 +1,7 @@
 # Stage 1
 FROM node:21 AS backend-builder
 
-# setup the working dir
+# setup the working dir for the backend
 WORKDIR /app
 
 # code
